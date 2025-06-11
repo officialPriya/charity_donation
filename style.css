@@ -53,3 +53,14 @@ nav ul li a {
 .bannerDivp{
     text-align: center; font-size: 20px;
 }
+.flex-container{
+    background-color: rgb(248, 159, 4);
+    width: 100%;
+    margin: 2px;
+    
+}
+.flex-box{
+    width: 200px;
+    height: 200px;
+
+}
