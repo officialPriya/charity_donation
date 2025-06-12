@@ -1,0 +1,224 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background: #111;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .donate-btn {
+    background: orange;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #000000bb, #000000aa), url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-buttons .btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn-light {
+    background: white;
+    color: orange;
+  }
+  
+  .quick-links {
+    background: #f16522;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .quick-links a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about-content .video img {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  .btn-small {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .services {
+    background: #fef1e6;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .donate-section {
+    background: #111;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .donate-box {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  footer blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  footer .scripture {
+    color: orange;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .socials a {
+    margin: 0 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
